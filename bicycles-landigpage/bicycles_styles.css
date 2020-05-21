@@ -189,3 +189,78 @@ input::placeholder {
 
 }
 
+.about_us {
+    margin-top: 150px;
+
+}
+
+.about_us h1 {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -0.005em;
+    color: #1F1F1F;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    width: 362px;
+    height: 60px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+}
+
+.numbers h2 {
+    display: inline-block;
+    margin-right: 38px;
+    width: 263px;
+    height: 60px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+
+
+    text-align: center;
+    letter-spacing: -1.27273px;
+
+    color: #0AD9C6
+}
+
+.numbers h2:last-child {
+    margin-right: 0;
+}
+
+.facts h3 {
+    display: inline-block;
+    margin-right: 38px;
+    width: 263px;
+    margin-bottom: 131px;
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.5px;
+
+    color: #000000;
+}
+.facts h3:last-child {
+    margin-right: 0;
+}
