@@ -12,10 +12,10 @@
 <header>
     <nav class = "main-nav">
         <ul>
-            <li><a href="#">О нас</a></li>
-            <li><a href="#">Виды велосипедов</a></li>
-            <li><a href="#">Видео про велосипеды</a></li>
-            <li><a href="#">Контакты</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#types">Виды велосипедов</a></li>
+            <li><a href="#video">Видео про велосипеды</a></li>
+            <li><a href="#contacts">Контакты</a></li>
         </ul>
     </nav>
 
@@ -36,7 +36,9 @@
     </div>
 </div>
 </header>
-<div class="about_us">
+
+<main>
+<div class="about_us" id="about">
     <h1>Несколько фактов о нас</h1>
     <div class="numbers">
         <h2>01</h2>
@@ -50,15 +52,53 @@
         <h3>Большой выбор крутых аксессуаров!</h3>
         <h3>Профессиональные консультации!</h3>
     </div>
+</div>
+
     <div class="bike_types">
-        <h1>Виды велосипедов</h1>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+        <h1  id="types">Виды велосипедов</h1>
+            <div class="bike-photos">
+                    <figure>
+                    <img src="Images/andreas-haimerl-_cv8iKu2ONM-unsplash%201.png" alt="city bike">
+                        <figcaption>Дорожный велосипед</figcaption>
+                    </figure>
+
+
+                    <figure class="mountain-bike">
+                    <img src="Images/eberhard-grossgasteiger-8lDkmXnKo7s-unsplash%201.png" alt="mountain bike">
+                        <figcaption>Горный велосипед</figcaption>
+                    </figure>
+
+                    <figure>
+                    <img src="Images/roger-goh-GrA9fiAm434-unsplash%201.png" alt="kids bike">
+                        <figcaption>Детский велосипед</figcaption>
+                    </figure>
+            </div>
+
     </div>
+
+    <div class="video-section">
+        <h1  id="video">Видео про велосипеды</h1>
+        <h2>В этом видео мы подробно расскажем про особенности выбора велосипеда для себя. </h2>
+        <img src="Images/josh-nuttall-zkVi57UYHIQ-unsplash%201.png" alt="video">
+    </div>
+
 </main>
+
+
+<footer class="footer-section">
+
+    <h1>Как нас найти?</h1>
+    <span>Мы находимся по адресу: Санкт-Петербург, ул. Большая Конюшенная, д. 19</span>
+    <img src="Images/Rectangle 6.png" height="530" width="957"/>
+
+    <div class="contacts" id="contacts">
+        <ul>
+            <li><a href="mailto: puteshestviemechta@gmail.ru">puteshestviemechta@gmail.ru</a></li>
+            <li><a href="tel: +749978468446">+7 (499) -784-684-46</a></li>
+        </ul>
+    </div>
+
+</footer>
 
 </body>
 </html>
