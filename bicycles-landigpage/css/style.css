@@ -1,0 +1,474 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/Open_Sans");
+
+}
+
+@font-face {
+    font-family: "Overpass";
+    src: url("fonts/Overpass");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background: url("Images/Img Bike.jpg") center;
+    background-color: black;
+    height: 825px;
+}
+
+.main-nav {
+    margin: 0;
+}
+
+.main-nav ul {
+    padding: 21px;
+    padding-bottom: 9px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 873px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0 auto;
+}
+
+
+
+.main-nav a{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    opacity: 0.7;
+    text-decoration: none;
+    display: inline-block;
+    height: 32px;
+}
+
+.main-nav a:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.main-nav a:not(:hover){
+    transition: 0.5s;
+}
+
+
+
+.text-block-1 {
+    width: 393px;
+    padding: 0;
+    margin: 0;
+}
+
+.text-block-1 h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 64px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+
+}
+
+a img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+a img:not(:hover) {
+    transition: 0.5s;
+}
+
+.text-block-1 h2{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.header-content {
+    vertical-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 256px;
+    padding-bottom: 240px;
+}
+
+form {
+    width: 327px;
+    padding-right: 10px;
+}
+
+
+input[type=text] {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 48px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+input[type=tel] {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    height: 48px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.submit-button {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: #0AD9C6;
+    border-radius: 6px;
+    height: 51px;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 14px;
+}
+
+.submit-button:hover {
+    transform: scale(1.1);
+    border: 1px solid black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.submit-button:not(:hover) {
+    transition: 0.5s;
+}
+
+
+
+legend{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    mix-blend-mode: normal;
+}
+
+input::placeholder {
+
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1C1C1C;
+    opacity: 0.5;
+    vertical-align: center;
+
+
+}
+
+.about_us {
+    padding-top: 150px;
+
+}
+
+.about_us h1 {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -0.005em;
+    color: #1F1F1F;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+    width: 362px;
+    height: 60px;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+}
+
+.numbers h2 {
+    display: inline-block;
+    margin-right: 38px;
+    width: 263px;
+    height: 60px;
+    margin-bottom: 0;
+    margin-top: 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+
+
+    text-align: center;
+    letter-spacing: -1.27273px;
+
+    color: #0AD9C6
+}
+
+.numbers h2:last-child {
+    margin-right: 0;
+}
+
+.facts h3 {
+    display: inline-block;
+    margin-right: 38px;
+    width: 263px;
+    margin-bottom: 131px;
+    margin-top: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.5px;
+
+    color: #000000;
+}
+.facts h3:last-child {
+    margin-right: 0;
+}
+
+.bike_types {
+    background-color: #F6F7F9;
+    padding-top: 150px;
+    padding-bottom: 147px;
+    margin: 0;
+}
+
+.bike_types h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 60px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -0.005em;
+    color: #1F1F1F;
+}
+
+.bike-photos {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.bike-photos figure {
+    width: 342px;
+    margin-right: 50px;
+    margin-top: 0;
+    margin-left: 0;
+
+}
+
+.bike-photos img {
+
+}
+
+
+.bike-photos figure:last-child {
+    margin-right: 0;
+}
+
+.mountain-bike {
+    padding-top: 29px;
+}
+
+.bike-photos figcaption {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+
+    font-size: 22px;
+    line-height: 34px;
+
+    letter-spacing: -0.5px;
+
+    color: #000000;
+}
+
+.video-section {
+
+    background:linear-gradient(#131314 706px, white 98px) ;
+    margin: 0;
+
+    padding-top: 120px;
+    padding-bottom: 151px;
+    box-sizing: border-box;
+}
+
+.video-section h2 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.video-section h3 {
+    text-align: center;
+    width: 340px;
+    height: 56px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.005em;
+    color: #FFFFFF;
+    opacity: 0.7;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 56px;
+}
+
+.video-section img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.map-block h2 {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -0.005em;
+    color: #1F1F1F;
+}
+
+.map-block span {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 31px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 41px;
+
+    width: 555px;
+}
+
+.map-block img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.contacts ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+    margin-bottom: 98px;
+}
+
+.contacts li:first-child {
+    margin-right: 90px;
+}
+
+.contacts li {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.contacts a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    margin: 10px;
+}
+
+.contacts a:hover {
+    transform: scale(1.2);
+    color: #1F1F1F;
+    transition: 0.5s;
+}
+
+.contacts a:not(:hover) {
+    transition: 0.5s;
+}
