@@ -231,6 +231,8 @@ input::placeholder {
 .about_us {
     padding-top: 150px;
     padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .about_us h2 {
@@ -355,7 +357,7 @@ input::placeholder {
     margin: 0;
 
     padding-top: 120px;
-    padding-bottom: 151px;
+    padding-bottom: 100px;
     box-sizing: border-box;
 }
 
@@ -374,7 +376,6 @@ input::placeholder {
 .video-section h3 {
     text-align: center;
     width: 340px;
-    height: 56px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: lighter;
@@ -399,8 +400,14 @@ input::placeholder {
     margin-top: 0;
 }
 
+.map-block {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
 .map-block h2 {
-    display: block;
+
     margin-top: 0;
     margin-bottom: 0;
     margin-left: auto;
@@ -440,13 +447,14 @@ input::placeholder {
 
 }
 
-.contacts ul{
+.contacts ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-top: 39px;
-    margin-bottom: 98px;
+    margin: 0;
+    padding: 0;
 }
+
 
 .contacts li:first-child {
     margin-right: 90px;
@@ -478,4 +486,10 @@ input::placeholder {
 
 .contacts a:not(:hover) {
     transition: 0.5s;
+}
+
+footer {
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
