@@ -1,12 +1,29 @@
 @font-face {
-    font-family: "Open Sans";
-    src: url("fonts/Open_Sans");
-
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-style: normal;
+    src: url("fonts/Open_Sans/Opensans-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Overpass";
-    src: url("fonts/Overpass");
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    src: url("fonts/Open_Sans/Opensans-Light.ttf");
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-style: normal;
+    src: url("fonts/Open_Sans/Opensans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-style: normal;
+    src: url("fonts/Open_Sans/Opensans-Bold.ttf");
 }
 
 body {
@@ -23,18 +40,21 @@ header {
     height: 825px;
 }
 
-.main-nav {
-    margin: 0;
+nav {
+    padding-top: 21px;
+    padding-bottom: 21px;
 }
 
 .main-nav ul {
-    padding: 21px;
+    padding-left: 22px;
+    padding-right: 22px;
+
     padding-bottom: 9px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     list-style: none;
     display: flex;
     justify-content: space-between;
     width: 873px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     margin: 0 auto;
 }
 
@@ -67,13 +87,13 @@ header {
 
 
 
-.text-block-1 {
+.promo-slogan {
     width: 393px;
     padding: 0;
     margin: 0;
 }
 
-.text-block-1 h1 {
+.promo-slogan h1 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -93,7 +113,7 @@ a img:not(:hover) {
     transition: 0.5s;
 }
 
-.text-block-1 h2{
+.promo-slogan h2{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -105,11 +125,11 @@ a img:not(:hover) {
     opacity: 0.8;
 }
 
-.header-content {
+.promo-content {
     vertical-align: center;
     display: flex;
     justify-content: center;
-    padding-top: 256px;
+    padding-top: 235px;
     padding-bottom: 240px;
 }
 
@@ -134,7 +154,7 @@ input[type=text] {
     padding-right: 30px;
 }
 
-input[type=tel] {
+input[type=number] {
     box-sizing: border-box;
     width: 100%;
     margin: 0;
@@ -179,13 +199,16 @@ input[type=tel] {
 legend{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
-
+    font-weight: 600;
     font-size: 17px;
     line-height: 28px;
+
+    margin-bottom: 20px;
     text-align: center;
     letter-spacing: -0.005em;
+
     color: #FFFFFF;
-    margin-bottom: 20px;
+
     mix-blend-mode: normal;
 }
 
@@ -204,81 +227,65 @@ input::placeholder {
 
 }
 
+
 .about_us {
     padding-top: 150px;
-
+    padding-bottom: 100px;
 }
 
-.about_us h1 {
-    display: block;
-    font-family: 'Open Sans', sans-serif;
+.about_us h2 {
+    margin: 0;
+    text-align: center;
+
+    font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 30px;
     line-height: 30px;
+
     letter-spacing: -0.005em;
+
     color: #1F1F1F;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 50px;
-    width: 362px;
-    height: 60px;
 }
 
-.numbers {
+.about_us ul {
+    list-style: none;
     display: flex;
     justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 0;
+    margin: 0;
 }
 
-.facts {
-    display: flex;
-    justify-content: center;
-}
-
-.numbers h2 {
-    display: inline-block;
-    margin-right: 38px;
+.about_us li {
+    text-align: center;
     width: 263px;
-    height: 60px;
-    margin-bottom: 0;
-    margin-top: 0;
-
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
     line-height: 38px;
-
-
-    text-align: center;
     letter-spacing: -1.27273px;
-
-    color: #0AD9C6
+    color: #0AD9C6;
+    margin-right: 38px;
 }
 
-.numbers h2:last-child {
+.about_us li:last-child {
     margin-right: 0;
 }
 
-.facts h3 {
-    display: inline-block;
-    margin-right: 38px;
-    width: 263px;
-    margin-bottom: 131px;
-    margin-top: 0;
-    font-family: 'Open Sans', sans-serif;
+.about_us span {
+    font-family: 'Open Sans';
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
     line-height: 34px;
     text-align: center;
     letter-spacing: -0.5px;
-
     color: #000000;
 }
-.facts h3:last-child {
-    margin-right: 0;
-}
+
 
 .bike_types {
     background-color: #F6F7F9;
@@ -317,7 +324,7 @@ input::placeholder {
 }
 
 .bike-photos img {
-
+    margin-bottom: 20px;
 }
 
 

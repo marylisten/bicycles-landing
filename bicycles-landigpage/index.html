@@ -17,8 +17,9 @@
         </ul>
     </nav>
 
-<div class = "header-content">
-    <div class="text-block-1">
+
+<div class = "promo-content">
+    <div class="promo-slogan">
         <a href="#"><img class = "moon-logo" src="css/Images/лого.png"></a>
         <h1>Мы продаем велосипеды</h1>
         <h2>Наш магазин отбирает только самые лучшие велосипеды для продажи</h2>
@@ -26,32 +27,28 @@
 
     <form action="https://echo.htmlacademy.ru/courses" method="post">
         <legend>Заполните поля ниже и мы подберем велосипед Вашей мечты</legend>
-        <input type="text" id="name" name="name-field" placeholder="Введите Ваше Имя" required>
-        <input type="tel" id="tel" name="tel" placeholder="Введите Ваш номер телефона">
+        <label><input type="text" id="name" name="name-field" placeholder="Введите Ваше Имя" required></label>
+        <label><input type="number" id="tel" name="tel" placeholder="Введите Ваш номер телефона" required></label>
         <button class="submit-button" type="submit">Подобрать велосипед мечты</button>
     </form>
-
 </div>
 </header>
+</div>
+
 
 <main>
 <section class="about_us" id="about">
-    <h1>Несколько фактов о нас</h1>
-    <div class="numbers">
-        <h2>01</h2>
-        <h2>02</h2>
-        <h2>03</h2>
-        <h2>04</h2>
-    </div>
-    <div class="facts">
-        <h3>Самый широкий выбор велосипедов!</h3>
-        <h3>Доставка велосипедов по всей России!</h3>
-        <h3>Большой выбор крутых аксессуаров!</h3>
-        <h3>Профессиональные консультации!</h3>
-    </div>
+    <h2>Несколько фактов о нас</h2>
+    <ul>
+        <li>01<br><span>Самый широкий выбор велосипедов!</span></li>
+        <li>02<br><span>Доставка велосипедов по всей России!</span></li>
+        <li>03<br><span>Большой выбор крутых аксессуаров!</span></li>
+        <li>04<br><span>Профессиональные консультации!</span></li>
+    </ul>
 </section>
 
-    <section class="bike_types">
+
+<section class="bike_types">
         <h1  id="types">Виды велосипедов</h1>
             <div class="bike-photos">
                     <figure>
@@ -71,7 +68,7 @@
                     </figure>
             </div>
 
-    </section>
+</section>
 
     <section class="video-section">
         <h2  id="video">Видео про велосипеды</h2>
