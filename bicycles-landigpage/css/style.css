@@ -54,7 +54,8 @@ nav {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 873px;
     margin: 0 auto;
 }
@@ -74,6 +75,7 @@ nav {
     text-decoration: none;
     display: inline-block;
     height: 32px;
+    padding: 5px;
 }
 
 .main-nav a:hover {
@@ -254,7 +256,8 @@ input::placeholder {
 .about_us ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 0;
@@ -262,9 +265,10 @@ input::placeholder {
 }
 
 .about_us li {
-    text-align: center;
+
+   text-align: center;
     width: 263px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
