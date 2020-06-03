@@ -200,7 +200,7 @@ input[type=number] {
 
 
 
-legend{
+.form_desc{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -303,7 +303,7 @@ input::placeholder {
 
 }
 
-.bike_types h1 {
+.bike_types h2 {
     display: block;
     text-align: center;
     margin-bottom: 60px;
@@ -417,7 +417,8 @@ input::placeholder {
     position: absolute;
     left: 50%;
     top: 50%;
-
+    background: none;
+    border: none;
 }
 
 .play-btn:hover {
