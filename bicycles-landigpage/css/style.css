@@ -325,6 +325,30 @@ input::placeholder {
     margin: 0;
 }
 
+.roadbike_circle {
+    position: relative;
+    top: 150px;
+    left: 100px;
+}
+
+.mountain-bike-black-sqr {
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.mountain-bike-blue-sqr {
+    position: relative;
+    top: 600px;
+    right: 70px;
+}
+
+.kids-bike-circle {
+    position: relative;
+    top: -30px;
+    right: 110px;
+}
+
 .bike-photos figure {
     width: 342px;
     margin-right: 50px;
