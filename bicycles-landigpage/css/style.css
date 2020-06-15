@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Open Sans';
     font-weight: normal;
@@ -64,7 +65,7 @@ nav {
 
 
 .main-nav a{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
@@ -98,7 +99,7 @@ nav {
 }
 
 .promo-slogan h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 46px;
@@ -118,7 +119,7 @@ a img:not(:hover) {
 }
 
 .promo-slogan h2{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif,"Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
@@ -153,7 +154,7 @@ input[type=text] {
     border-radius: 6px;
     margin-bottom: 20px;
     border: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
@@ -167,7 +168,7 @@ input[type=number] {
     border-radius: 6px;
     margin-bottom: 20px;
     border: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-size: 18px;
     padding-left: 30px;
     padding-right: 30px;
@@ -181,7 +182,7 @@ input[type=number] {
     background: #0AD9C6;
     border-radius: 6px;
     height: 51px;
-    font-family: 'Overpass', sans-serif;
+    font-family: 'Overpass', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -202,7 +203,7 @@ input[type=number] {
 
 
 .form_desc{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 17px;
@@ -220,7 +221,7 @@ input[type=number] {
 input::placeholder {
 
     display: inline-block;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -244,7 +245,7 @@ input::placeholder {
     margin: 0;
     text-align: center;
 
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -270,7 +271,7 @@ input::placeholder {
 
    text-align: center;
     width: 263px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
@@ -278,6 +279,7 @@ input::placeholder {
     letter-spacing: -1.27273px;
     color: #0AD9C6;
     margin-right: 38px;
+    margin-top: 25px;
 }
 
 .about_us li:last-child {
@@ -285,7 +287,7 @@ input::placeholder {
 }
 
 .about_us span {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -309,7 +311,7 @@ input::placeholder {
     text-align: center;
     margin-bottom: 60px;
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -377,7 +379,7 @@ input::placeholder {
 
 .bike-photos figcaption {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
 
     font-size: 22px;
@@ -400,7 +402,7 @@ input::placeholder {
 
 .video-section h2 {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-size: 30px;
     font-weight: normal;
@@ -413,7 +415,7 @@ input::placeholder {
 .video-section h3 {
     text-align: center;
     width: 340px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: lighter;
     font-size: 16px;
@@ -474,7 +476,7 @@ input::placeholder {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
@@ -484,7 +486,7 @@ input::placeholder {
 }
 
 .map-block span {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 17px;
@@ -526,7 +528,7 @@ input::placeholder {
 }
 
 .contacts li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif, "Trebuchet MS", Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
